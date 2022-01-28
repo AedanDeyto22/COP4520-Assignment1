@@ -151,7 +151,7 @@ public class PrimeCount
         // and top 10 list in a text file called ptime.text
         try
         {
-            FileWriter writer = new FileWriter("prime.txt");
+            FileWriter writer = new FileWriter("primes.txt");
             writer.write("Execution Time: " + Double.toString(convert));
             writer.write(" Prime count: " + Integer.toString(count.primeCount));
             writer.write(" Sum of Primes: " + Long.toString(count.primeTotal) + "\n");
